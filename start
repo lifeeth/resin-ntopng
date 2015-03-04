@@ -1,0 +1,5 @@
+#!/bin/bash
+#Spawn redis for ntopng
+/etc/init.d/redis start
+#Spawn ntopng
+ntopng
